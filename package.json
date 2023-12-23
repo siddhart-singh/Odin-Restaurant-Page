@@ -1,0 +1,29 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack server --open",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhart-singh/Odin-Restaurant-Page.git"
+  },
+  "author": "siddhart-singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhart-singh/Odin-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/siddhart-singh/Odin-Restaurant-Page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
