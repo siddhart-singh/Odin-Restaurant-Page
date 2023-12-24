@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Mukta:wght@500;600;700;800&display=swap");
+
+.body {
+  @apply w-screen overflow-x-hidden bg-amber-50;
+}
+
+.nav {
+  @apply mx-auto flex max-w-screen-xl items-center justify-between p-3.5;
+}
+
+.logo {
+  @apply font-kalnia text-4xl;
+}
+
+.navigation {
+  @apply flex gap-4;
+}
+
+.nav-btn {
+  @apply border border-s border-black px-6 py-2 font-mukta font-bold transition-shadow hover:shadow-nav;
+}
+
+.active {
+  @apply shadow-btn shadow-blue-500;
+}
+
+.home-content {
+  @apply mx-auto max-w-screen-xl px-3.5;
+}
+
+.page-banner {
+  @apply w-full;
+}
+
+.banner {
+  @apply grid border-collapse grid-cols-3 grid-rows-1 border border-4 border-black;
+}
+
+.banner-img {
+  @apply h-full w-full border-collapse border border-2 border-black;
+}
+
+.page {
+  @apply sticky top-0 h-screen w-full py-8;
+}
+
+.page-img {
+  @apply h-full w-full border-collapse border border-4 border-black;
+}
