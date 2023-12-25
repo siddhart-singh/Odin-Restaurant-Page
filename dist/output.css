@@ -552,156 +552,24 @@ video {
   position: relative;
 }
 
-.top-40 {
-  top: 10rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.-bottom-0 {
-  bottom: -0px;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.left-2\/4 {
-  left: 50%;
-}
-
-.top-2\/4 {
-  top: 50%;
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-1\/4 {
-  top: 25%;
-}
-
-.top-36 {
-  top: 9rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.top-14 {
-  top: 3.5rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-2 {
-  width: 0.5rem;
 }
 
 .overflow-hidden {
   overflow: hidden;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.font-mukta {
-  font-family: 'Mukta', sans-serif;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-75 {
-  opacity: 0.75;
-}
-
-.opacity-85 {
-  opacity: 0.85;
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .opacity-80 {
   opacity: 0.8;
 }
 
-.outline {
-  outline-style: solid;
-}
-
-.outline-white {
-  outline-color: #fff;
+.opacity-90 {
+  opacity: 0.9;
 }
 
 .body {
@@ -823,4 +691,35 @@ video {
 
 .page-yellow {
   background-image: url("./image/yellowHomeBG.jpg");
+}
+
+.page-para {
+  position: absolute;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-family: 'Lilita One', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-shadow: 4px 4px #000;
+}
+
+.pizza {
+  top: 33.333333%;
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.burger {
+  top: 3.5rem;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.pasta {
+  top: 3.5rem;
+  font-size: 3rem;
+  line-height: 1;
 }

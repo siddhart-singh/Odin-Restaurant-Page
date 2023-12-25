@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Mukta:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Lilita+One&family=Mukta:wght@500;600;700;800&display=swap");
 
 .body {
   @apply w-screen overflow-x-hidden bg-amber-50;
@@ -62,4 +62,19 @@
 
 .page-yellow {
   background-image: url("./image/yellowHomeBG.jpg");
+}
+
+.page-para {
+  @apply font-lilitaOne absolute  px-4 text-center font-bold tracking-wider text-white;
+  text-shadow: 4px 4px #000;
+}
+
+.pizza {
+  @apply top-1/3 text-9xl;
+}
+.burger {
+  @apply top-14 text-5xl;
+}
+.pasta {
+  @apply top-14 text-5xl;
 }

@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         kalnia: "'Kalnia', serif",
         mukta: "'Mukta', sans-serif",
+        lilitaOne: "'Lilita One', sans-serif",
       },
     },
   },
