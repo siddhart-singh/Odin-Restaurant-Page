@@ -49,5 +49,17 @@
 }
 
 .page-img {
-  @apply h-full w-full border-collapse border border-4 border-black;
+  @apply h-full w-full border-collapse border border-4 border-black bg-cover bg-center;
+}
+
+.page-red {
+  background-image: url("./image/redHomeBG.jpg");
+}
+
+.page-blue {
+  background-image: url("./image/blueHomeBG.jpg");
+}
+
+.page-yellow {
+  background-image: url("./image/yellowHomeBG.jpg");
 }

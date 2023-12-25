@@ -36,19 +36,28 @@ export default function home() {
   });
 
   const pageRed = createEl("div", ["page"], "", pageBanner);
-  const pageRedImg = createEl("img", ["page-img"], "", pageRed, {
-    src: RedHomeBG,
-  });
+  const pageRedImg = createEl("div", ["page-img", "page-red"], "", pageRed, {});
 
   const pageBlue = createEl("div", ["page"], "", pageBanner);
-  const pageBlueImg = createEl("img", ["page-img"], "", pageBlue, {
-    src: BlueHomeBG,
-  });
+  const pageBlueImg = createEl(
+    "div",
+    ["page-img", "page-blue"],
+    "",
+    pageBlue,
+    {},
+  );
+
 
   const pageYellow = createEl("div", ["page"], "", pageBanner);
-  const pageYellowImg = createEl("img", ["page-img"], "", pageYellow, {
-    src: YellowHomeBG,
-  });
+  const pageYellowImg = createEl(
+    "div",
+    ["page-img", "page-yellow"],
+    "",
+    pageYellow,
+    {},
+  );
+  console.log(pageYellowImg);
+  
 
-  return content;
+  return [pageBanner, pageRed, pageBlue, pageYellow];
 }

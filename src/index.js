@@ -2,7 +2,6 @@
 import "./input.css";
 import homepage from "./homepage.js";
 import home from "./home.js";
-import createEl from "./elementCreator.js";
 
 window.addEventListener("load", (e) => {
   let body = document.querySelector("body");
@@ -10,5 +9,5 @@ window.addEventListener("load", (e) => {
   body.append(...homepage());
 
   let content = document.querySelector("#content");
-  content.appendChild(home());
+  content.append(...home());
 });
