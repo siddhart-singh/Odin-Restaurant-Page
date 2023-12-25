@@ -544,34 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
 .body {
   width: 100vw;
   overflow-x: hidden;
@@ -670,15 +642,34 @@ video {
   padding-bottom: 2rem;
 }
 
-.page-img {
+.page-img-div {
+  position: relative;
   height: 100%;
   width: 100%;
   border-collapse: collapse;
+  overflow: hidden;
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
   background-size: cover;
   background-position: center;
+}
+
+.page-img {
+  position: absolute;
+  width: 100%;
+}
+
+.burger-img {
+  opacity: 0.9;
+}
+
+.pizza-img {
+  opacity: 0.7;
+}
+
+.pasta-img {
+  opacity: 0.8;
 }
 
 .page-red {

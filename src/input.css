@@ -48,9 +48,17 @@
   @apply sticky top-0 h-screen w-full py-8;
 }
 
-.page-img {
-  @apply h-full w-full border-collapse border border-4 border-black bg-cover bg-center;
+.page-img-div {
+  @apply relative h-full w-full border-collapse overflow-hidden border border-4 border-black bg-cover bg-center;
 }
+
+.page-img {
+  @apply absolute w-full;
+}
+
+.burger-img{@apply opacity-90}
+.pizza-img{@apply opacity-70}
+.pasta-img{@apply opacity-80}
 
 .page-red {
   background-image: url("./image/redHomeBG.jpg");
@@ -65,7 +73,7 @@
 }
 
 .page-para {
-  @apply font-lilitaOne absolute  px-4 text-center font-bold tracking-wider text-white;
+  @apply absolute px-4  text-center font-lilitaOne font-bold tracking-wider text-white;
   text-shadow: 4px 4px #000;
 }
 
