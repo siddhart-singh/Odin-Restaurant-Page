@@ -99,3 +99,22 @@
 .pasta {
   @apply top-14 text-5xl;
 }
+
+.card {
+  background-image: url(./image/menu/bigSpicyWrap.jpg);
+  background-size: 100%;
+}
+
+.card:hover {
+  background-size: 110%;
+}
+
+.description {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(69, 69, 69, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}

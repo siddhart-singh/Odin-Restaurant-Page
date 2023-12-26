@@ -9,5 +9,7 @@ window.addEventListener("load", (e) => {
   body.append(...homepage());
 
   let content = document.querySelector("#content");
+  content.classList.add("content");
+
   content.append(...menu());
 });

@@ -3,7 +3,7 @@ import "./input.css";
 import contentReset from "./contentReset";
 
 export default function menu() {
-  const content = contentReset();
+  contentReset();
 
-  return [content];
+  return [];
 }
