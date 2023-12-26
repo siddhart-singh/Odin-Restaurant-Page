@@ -1,5 +1,7 @@
 "use strict";
 import createEl from "./elementCreator";
+import switchTab from "./switchActiveTab";
+import contentReset from "./contentReset";
 import "./input.css";
 import HomeBG from "./image/homeBG.jpg";
 import RedHomeBG from "./image/redHomeBG.jpg";
@@ -13,14 +15,9 @@ import pasta from "./image/pasta.jpg";
 import burger from "./image/burger.jpg";
 
 export default function home() {
-  document.querySelectorAll(".nav-btn").forEach((btn) => {
-    if (btn.getAttribute("data-id") === "home") {
-      btn.classList.add("active");
-    }
-  });
+  switchTab("home");
 
-  const content = document.querySelector("#content");
-  content.classList.add("home-content");
+  const content = contentReset();
 
   const pageBanner = createEl("div", ["page-banner"], "", content);
 

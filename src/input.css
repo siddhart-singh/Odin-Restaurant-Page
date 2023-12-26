@@ -24,11 +24,18 @@
   @apply border border-s border-black px-6 py-2 font-mukta font-bold transition-shadow hover:shadow-nav;
 }
 
-.active {
-  @apply shadow-btn shadow-blue-500;
+.active-home {
+  @apply shadow-btnHome;
 }
 
-.home-content {
+.active-menu {
+  @apply shadow-btnMenu;
+}
+.active-contact {
+  @apply shadow-btnContact;
+}
+
+.content {
   @apply mx-auto max-w-screen-xl px-3.5;
 }
 
@@ -41,7 +48,7 @@
 }
 
 .banner-img {
-  @apply h-full w-full border-collapse border border-2 border-black;
+  @apply h-full w-full border-collapse border border-4 border-black;
 }
 
 .page {
@@ -56,9 +63,15 @@
   @apply absolute w-full;
 }
 
-.burger-img{@apply opacity-90}
-.pizza-img{@apply opacity-70}
-.pasta-img{@apply opacity-80}
+.burger-img {
+  @apply opacity-90;
+}
+.pizza-img {
+  @apply opacity-70;
+}
+.pasta-img {
+  @apply opacity-80;
+}
 
 .page-red {
   background-image: url("./image/redHomeBG.jpg");

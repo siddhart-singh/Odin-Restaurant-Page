@@ -1,7 +1,7 @@
-"use strict";
-import "./input.css";
 import homepage from "./homepage.js";
 import home from "./home.js";
+import menu from "./menu.js";
+import "./input.css";
 
 window.addEventListener("load", (e) => {
   let body = document.querySelector("body");
@@ -9,5 +9,5 @@ window.addEventListener("load", (e) => {
   body.append(...homepage());
 
   let content = document.querySelector("#content");
-  content.append(...home());
+  content.append(...menu());
 });
