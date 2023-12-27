@@ -5,10 +5,11 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        nav: "5px 5px rgba(0, 0, 0)",
-        btnHome: "4px 4px rgb(34 197 94),4.75px 4.75px rgb(0,0,0)",
-        btnMenu: "0px 0px rgb(0,0,0)",
-        btnContact: "0px 0px rgb(0,0,0)",
+        nav: "5px 5px rgb(0,0,0), 5px 3px rgb(0,0,0), 3px 5px rgb(0,0,0)",
+        btnHome:
+          "4px 4px rgb(34 197 94),5px 5px rgb(0,0,0), 5px 3px rgb(0,0,0), 3px 5px rgb(0,0,0)",
+        btnMenu:
+          "4px 4px rgb(234 179 8), 5px 5px rgb(0,0,0), 5px 3px rgb(0,0,0), 3px 5px rgb(0,0,0)",
       },
       fontFamily: {
         kalnia: "'Kalnia', serif",

@@ -31,9 +31,9 @@
 .active-menu {
   @apply shadow-btnMenu;
 }
-.active-contact {
+/* .active-contact {
   @apply shadow-btnContact;
-}
+} */
 
 .content {
   @apply mx-auto max-w-screen-xl px-3.5;
@@ -100,16 +100,87 @@
   @apply top-14 text-5xl;
 }
 
+.menu-container {
+  @apply mt-14 flex flex-col items-center justify-center gap-5;
+}
+
+.menu-heading {
+  @apply text-7xl font-extrabold text-rose-500;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    4px 4px #000;
+}
+
+.menu-card {
+  @apply flex flex-wrap justify-center gap-6;
+}
+
 .card {
-  background-image: url(./image/menu/bigSpicyWrap.jpg);
+  @apply relative flex h-96 w-96 items-end border-4 border-black bg-center bg-no-repeat transition-all;
   background-size: 100%;
 }
 
+.bigSpicyWrap {
+  background-image: url(./image/menu/bigSpicyWrap.jpg);
+}
+
+.crispyBurger {
+  background-image: url("./image/menu/crispyBurger.jpg");
+}
+
+.farmFreshWrap {
+  background-image: url("./image/menu/farmFreshWrap.jpg");
+}
+
+.fieryTaco {
+  background-image: url("./image/menu/fieryTaco.jpg");
+}
+
+.loadedTaco {
+  background-image: url("./image/menu/loadedTaco.jpg");
+}
+
+.periPeriMushroomPepperoni {
+  background-image: url("./image/menu/periPeriMushroomPepperoni.jpg");
+}
+
+.pickleTickle {
+  background-image: url("./image/menu/pickleTickle.jpg");
+}
+
+.supremeBurger {
+  background-image: url("./image/menu/supremeBurger.jpg");
+}
+
 .card:hover {
-  background-size: 110%;
+  background-size: 120%;
+}
+
+.tag-container {
+  @apply absolute left-4 top-4 flex items-center justify-center gap-2;
+}
+
+.tag {
+  @apply rounded-full px-4  py-1 font-mukta text-sm font-extrabold text-white;
+}
+
+.veg {
+  @apply bg-green-500;
+}
+
+.non-veg {
+  @apply bg-red-500;
+}
+
+.spicy {
+  @apply bg-orange-500;
 }
 
 .description {
+  @apply flex h-fit w-full items-center justify-between px-6 py-3 text-white transition-all;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -117,4 +188,20 @@
     rgba(69, 69, 69, 1) 50%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.card:hover .description {
+  @apply py-5;
+}
+
+.meal-name {
+  @apply font-mukta text-xl font-extrabold;
+}
+
+.meal-price {
+  @apply whitespace-nowrap font-mukta text-xl font-extrabold;
+}
+
+.meal-price-span {
+  @apply text-lg;
 }

@@ -4,6 +4,6 @@ import contentReset from "./contentReset";
 
 export default function menu() {
   contentReset();
-
+  
   return [];
 }
