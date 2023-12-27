@@ -67,7 +67,7 @@
   @apply opacity-90;
 }
 .pizza-img {
-  @apply opacity-70;
+  @apply opacity-75;
 }
 .pasta-img {
   @apply opacity-80;
@@ -87,7 +87,15 @@
 
 .page-para {
   @apply absolute px-4  text-center font-lilitaOne font-bold tracking-wider text-white;
-  text-shadow: 4px 4px #000;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    4px 4px rgb(34 197 94),
+    5px 5px rgb(0, 0, 0),
+    5px 3px rgb(0, 0, 0),
+    3px 5px rgb(0, 0, 0);
 }
 
 .pizza {
@@ -111,7 +119,10 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000,
-    4px 4px #000;
+    4px 4px rgb(234 179 8),
+    5px 5px rgb(0, 0, 0),
+    5px 3px rgb(0, 0, 0),
+    3px 5px rgb(0, 0, 0);
 }
 
 .menu-card {
@@ -184,8 +195,8 @@
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(69, 69, 69, 1) 50%,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(69, 69, 69, 0.9) 50%,
     rgba(255, 255, 255, 0) 100%
   );
 }
