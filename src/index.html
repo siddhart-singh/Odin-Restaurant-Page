@@ -17,106 +17,35 @@
         <div class="logo">Lorem</div>
         <div class="navigation">
           <button class="nav-btn">Home</button><button class="nav-btn">Menu</button>
-          <button class="nav-btn">Contact</button>
+          <button class="nav-btn active-contact">Contact</button>
         </div>
       </nav>
-      <div id="content" class="content">
-        <div class="page-banner">
-          <div class="banner">
-            <img src="./image/menuBannerA.jpg" class="banner-img" alt="" />
-            <img src="./image/menuBannerB.jpg" class="banner-img" alt="" />
-            <img src="./image/menuBannerC.jpg" class="banner-img" alt="" />
-          </div>
+      <div id="content" class="content content-form">
+        <h1 class="content-heading">Contact Us</h1>
+        <div class="formBG relative">
+          <form class="form">
+            <div class="">
+              <label for="first-name" class="form-label">First name</label>
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="form-input  ">
+            </div>
+            <div class="">
+              <label for="number" class="form-label">Mobile Number</label>
+              <input type="tel" name="number" id="number" class="form-input  ">
+            </div>
+            <div class="col-span-full">
+              <label for="email" class="form-label">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" class="form-input  ">
+            </div>
+            <div class="col-span-full">
+              <label for="about" class="form-label">About</label>
+              <textarea id="about" name="about" rows="3" class="form-input  "></textarea>
+            </div>
+            <div class="form-btn-container">
+              <button type="reset" class="form-btn-cancel">Cancel</button>
+              <button type="submit" class="form-btn-send">Send</button>
+            </div>
+          </form>
         </div>
-        <div class="menu-container ">
-          <h2 class="menu-heading ">Menu</h2>
-          <div class="menu-card  ">
-            <div class="card periPeriMushroomPepperoni">
-              <div class="tag-container ">
-                <p class="tag non-veg">NON-VEG</p>
-                <p class="tag spicy">SPICY</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Peri Peri Mushroom Pepperoni</p>
-                <p class="meal-price ">16 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-            <div class=" card bigSpicyWrap">
-              <div class="tag-container ">
-                <p class="tag veg">VEG</p>
-              </div>
-              <div class="description ">
-                <p class="meal-name">Big Spicy Panner Wrap</p>
-                <p class="meal-price">10 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-
-
-            <div class="card farmFreshWrap">
-              <div class="tag-container">
-                <p class="tag non-veg">NON-VEG</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Farm Fresh Chicken Wrap</p>
-                <p class="meal-price">12 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-
-            <div class="card crispyBurger">
-              <div class="tag-container">
-                <p class="tag veg">VEG</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Veg Cirspy Burger</p>
-                <p class="meal-price ">8 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-
-            <div class="card supremeBurger">
-              <div class="tag-container ">
-
-                <p class="tag non-veg">NON-VEG</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Supreme Burger</p>
-                <p class="meal-price ">10 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-            <div class="card fieryTaco">
-              <div class="tag-container ">
-                <p class="tag veg">VEG</p>
-                <p class="tag spicy">SPICY</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Fiery Taco</p>
-                <p class="meal-price ">6 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-            <div class="card loadedTaco">
-              <div class="tag-container ">
-
-                <p class="tag non-veg">NON-VEG</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Loaded Taco</p>
-                <p class="meal-price ">8 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-
-
-            <div class="card pickleTickle">
-              <div class="tag-container ">
-
-                <p class="tag veg">VEG</p>
-              </div>
-              <div class="description ">
-                <p class=" meal-name ">Pickle Tickle</p>
-                <p class="meal-price ">4 <span class="meal-price-span">Stones</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </body>
   </body>
