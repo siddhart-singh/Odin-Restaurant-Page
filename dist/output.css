@@ -1102,3 +1102,11 @@ video {
   width: 1100px;
   height: 800px;
 }
+
+footer{
+  background-image: url("./image/");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
