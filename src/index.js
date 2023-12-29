@@ -1,6 +1,7 @@
 import homepage from "./homepage.js";
 import home from "./home.js";
 import menu from "./menu.js";
+import contact from "./contact.js";
 import "./input.css";
 import { doc } from "prettier";
 
@@ -25,7 +26,8 @@ window.addEventListener("load", (e) => {
         content.append(...menu());
         activePage = "menu";
       } else if (e.target.dataset.id == "contact" && activePage != "contact") {
-        console.log("HELLO");
+        content.append(...contact());
+        activePage = "contact";
       }
     });
   });

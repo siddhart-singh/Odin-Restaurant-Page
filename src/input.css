@@ -113,7 +113,7 @@
 }
 
 .menu-heading {
-  @apply font-sans text-7xl font-extrabold text-indigo-500;
+  @apply font-sans text-7xl font-extrabold text-rose-500;
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -217,8 +217,8 @@
   @apply text-lg;
 }
 
-.content-form {
-  @apply my-20 gap-10 flex flex-col items-center;
+.content-contact {
+  @apply my-20 flex flex-col items-center gap-10;
 }
 
 .content-heading {
@@ -235,7 +235,7 @@
 }
 
 .form {
-  @apply shadow-formShadow absolute left-14 top-52 mx-auto grid w-2/4 grid-cols-1 gap-4 border-4 border-black bg-black bg-opacity-30 p-3 outline outline-8 outline-white;
+  @apply absolute left-14 top-52 mx-auto grid w-2/4 grid-cols-1 gap-4 border-4 border-black bg-black bg-opacity-30 p-3 shadow-formShadow outline outline-8 outline-white;
 }
 
 .form-label {
@@ -243,11 +243,11 @@
 }
 
 .form-btn-container {
-  @apply col-span-full mt-6 flex items-center justify-end gap-x-6 self-center;
+  @apply col-span-full mt-6 flex items-center justify-end gap-x-3 self-center;
 }
 
 .form-input {
-  @apply mt-2 block w-full resize-none rounded-md border-0 px-3 py-1 py-1.5 font-mukta text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 ;
+  @apply mt-2 block w-full resize-none border-0 px-3 py-1 py-1.5 font-mukta text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600;
 }
 
 .form-btn-cancel {
@@ -263,7 +263,8 @@
 }
 
 .formBG {
-  background-image: url("./image/12062245_4887680-fotor-2023122916491.jpg");
+  background-image: url("./image/contactFormBG.jpg");
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
