@@ -13,7 +13,7 @@ window.addEventListener("load", (e) => {
 
   content = document.querySelector("#content");
   content.classList.add("content");
-  content.append(...contact());
+  content.append(...home());
   activePage = "home";
 
   // const navBar = document.querySelectorAll(".nav-btn");
