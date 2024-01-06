@@ -16,19 +16,19 @@ window.addEventListener("load", (e) => {
   content.append(...home());
   activePage = "home";
 
-  // const navBar = document.querySelectorAll(".nav-btn");
-  // navBar.forEach((btn) => {
-  //   btn.addEventListener("click", (e) => {
-  //     if (e.target.dataset.id == "home" && activePage != "home") {
-  //       content.append(...home());
-  //       activePage = "home";
-  //     } else if (e.target.dataset.id == "menu" && activePage != "menu") {
-  //       content.append(...menu());
-  //       activePage = "menu";
-  //     } else if (e.target.dataset.id == "contact" && activePage != "contact") {
-  //       content.append(...contact());
-  //       activePage = "contact";
-  //     }
-  //   });
-  // });
+   const navBar = document.querySelectorAll(".nav-btn");
+     navBar.forEach((btn) => {
+     btn.addEventListener("click", (e) => {
+       if (e.target.dataset.id == "home" && activePage != "home") {
+         content.append(...home());
+         activePage = "home";
+       } else if (e.target.dataset.id == "menu" && activePage != "menu") {
+         content.append(...menu());
+         activePage = "menu";
+       } else if (e.target.dataset.id == "contact" && activePage != "contact") {
+         content.append(...contact());
+         activePage = "contact";
+       }
+     });
+   });
 });
